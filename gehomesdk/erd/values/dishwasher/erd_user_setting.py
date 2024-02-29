@@ -36,6 +36,7 @@ class UserWashZoneSetting(enum.Enum):
     BOTH = 0
     LOWER = 1
     UPPER = 2
+    UNKNOWN = 3
 
 class ErdUserSetting (NamedTuple):
     mute: UserSetting = UserSetting.DISABLE
